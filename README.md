@@ -1,29 +1,3 @@
-# Guia-limpieza-y-preprocesamiento-de-datos
-
-📊 Guía 2: Limpieza y Preprocesamiento de Datos
-
-Este repositorio contiene la solución de la Guía 2 del curso, cuyo objetivo es aplicar técnicas de limpieza y preparación de datos utilizando la biblioteca Pandas de Python.
-
-📁 Estructura del Proyecto
-
-El proyecto sigue la estructura de carpetas recomendada para mantener el código organizado y reutilizable:
-
-guia2/
-│
-├── data/                      # Archivos de datos originales
-│   └── notasdeestudiantes.csv
-│
-├── notebooks/                 # Notebooks de Jupyter para análisis exploratorio
-│   └── limpieza_analisis.ipynb
-│
-├── outputs/                   # Datos limpios y resultados generados
-│   └── dataset_limpio.csv
-│
-├── src/                       # Módulos de Python reutilizables
-│   ├── limpieza.py            # Funciones para limpiar y normalizar datos
-│   └── analisis.py            # Funciones para análisis estadístico
-│
-└── README.md                  # Este archivo
 🎯 Objetivo del Proyecto
 
 Procesar el archivo notasdeestudiantes.csv, que contiene datos académicos con múltiples problemas de calidad, y transformarlo en un dataset limpio y listo para análisis.
@@ -54,7 +28,6 @@ Eliminación de Outliers (IQR):
 Se aplica el método de rango intercuartil sobre la columna nota.
 Imputación de Valores Faltantes:
 Se reemplazan valores faltantes con la media del dataset limpio.
-
 📈 Análisis de Datos (src/analisis.py)
 
 Se generan las siguientes métricas:
